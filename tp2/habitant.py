@@ -7,6 +7,7 @@ class Habitant() :
         self.animaux = animaux
 
     def affichage_adresse(self) :
+        print(self.nom,"habite a",self.adresse)
         return self.nom + " habite a"+ self.adresse
     
     def compte_animal(self, animal) : 
